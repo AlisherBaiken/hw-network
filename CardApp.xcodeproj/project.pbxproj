@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7ECDB8BD2C75E2000086FDBC /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDB8BC2C75E2000086FDBC /* CardTableViewCell.swift */; };
+		7ECDB8BF2C75EC9A0086FDBC /* CardsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDB8BE2C75EC9A0086FDBC /* CardsDetailViewController.swift */; };
 		7ED860622C6C984200AFE3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED860612C6C984200AFE3AC /* AppDelegate.swift */; };
 		7ED860642C6C984200AFE3AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED860632C6C984200AFE3AC /* SceneDelegate.swift */; };
 		7ED860662C6C984200AFE3AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED860652C6C984200AFE3AC /* ViewController.swift */; };
-		7ED860692C6C984200AFE3AC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7ED860682C6C984200AFE3AC /* Base */; };
 		7ED8606B2C6C984300AFE3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED8606A2C6C984300AFE3AC /* Assets.xcassets */; };
 		7ED8606E2C6C984300AFE3AC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7ED8606D2C6C984300AFE3AC /* Base */; };
+		7ED8607C2C6C995A00AFE3AC /* CardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8607B2C6C995A00AFE3AC /* CardResponse.swift */; };
+		7ED8607E2C6C9A0200AFE3AC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8607D2C6C9A0200AFE3AC /* Card.swift */; };
+		7ED860802C6CA0E500AFE3AC /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8607F2C6CA0E500AFE3AC /* Networking.swift */; };
+		7ED860832C6CA10200AFE3AC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7ED860822C6CA10200AFE3AC /* Alamofire */; };
+		7ED860852C6CA33900AFE3AC /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED860842C6CA33900AFE3AC /* CardsViewModel.swift */; };
+		7ED860882C6CAF2800AFE3AC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7ED860872C6CAF2800AFE3AC /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7ECDB8BC2C75E2000086FDBC /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		7ECDB8BE2C75EC9A0086FDBC /* CardsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDetailViewController.swift; sourceTree = "<group>"; };
 		7ED8605E2C6C984200AFE3AC /* CardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED860612C6C984200AFE3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ED860632C6C984200AFE3AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7ED860652C6C984200AFE3AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7ED860682C6C984200AFE3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ED8606A2C6C984300AFE3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED8606D2C6C984300AFE3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ED8606F2C6C984300AFE3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED8607B2C6C995A00AFE3AC /* CardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardResponse.swift; sourceTree = "<group>"; };
+		7ED8607D2C6C9A0200AFE3AC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7ED8607F2C6CA0E500AFE3AC /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		7ED860842C6CA33900AFE3AC /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED860832C6CA10200AFE3AC /* Alamofire in Frameworks */,
+				7ED860882C6CAF2800AFE3AC /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,60 @@
 		7ED860602C6C984200AFE3AC /* CardApp */ = {
 			isa = PBXGroup;
 			children = (
+				7ED860762C6C98EC00AFE3AC /* model */,
+				7ED860772C6C98F400AFE3AC /* network */,
+				7ED860752C6C98BA00AFE3AC /* views */,
 				7ED860612C6C984200AFE3AC /* AppDelegate.swift */,
 				7ED860632C6C984200AFE3AC /* SceneDelegate.swift */,
-				7ED860652C6C984200AFE3AC /* ViewController.swift */,
-				7ED860672C6C984200AFE3AC /* Main.storyboard */,
 				7ED8606A2C6C984300AFE3AC /* Assets.xcassets */,
 				7ED8606C2C6C984300AFE3AC /* LaunchScreen.storyboard */,
 				7ED8606F2C6C984300AFE3AC /* Info.plist */,
 			);
 			path = CardApp;
+			sourceTree = "<group>";
+		};
+		7ED860752C6C98BA00AFE3AC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7ED860792C6C992400AFE3AC /* cells */,
+				7ED860782C6C990D00AFE3AC /* viewControllers */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		7ED860762C6C98EC00AFE3AC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8607B2C6C995A00AFE3AC /* CardResponse.swift */,
+				7ED8607D2C6C9A0200AFE3AC /* Card.swift */,
+				7ED860842C6CA33900AFE3AC /* CardsViewModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7ED860772C6C98F400AFE3AC /* network */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8607F2C6CA0E500AFE3AC /* Networking.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		7ED860782C6C990D00AFE3AC /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7ED860652C6C984200AFE3AC /* ViewController.swift */,
+				7ECDB8BE2C75EC9A0086FDBC /* CardsDetailViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		7ED860792C6C992400AFE3AC /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				7ECDB8BC2C75E2000086FDBC /* CardTableViewCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +142,10 @@
 			dependencies = (
 			);
 			name = CardApp;
+			packageProductDependencies = (
+				7ED860822C6CA10200AFE3AC /* Alamofire */,
+				7ED860872C6CAF2800AFE3AC /* SnapKit */,
+			);
 			productName = CardApp;
 			productReference = 7ED8605E2C6C984200AFE3AC /* CardApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +174,10 @@
 				Base,
 			);
 			mainGroup = 7ED860552C6C984200AFE3AC;
+			packageReferences = (
+				7ED860812C6CA10200AFE3AC /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7ED860862C6CAF2800AFE3AC /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 7ED8605F2C6C984200AFE3AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +194,6 @@
 			files = (
 				7ED8606B2C6C984300AFE3AC /* Assets.xcassets in Resources */,
 				7ED8606E2C6C984300AFE3AC /* Base in Resources */,
-				7ED860692C6C984200AFE3AC /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +204,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECDB8BF2C75EC9A0086FDBC /* CardsDetailViewController.swift in Sources */,
 				7ED860662C6C984200AFE3AC /* ViewController.swift in Sources */,
+				7ED860852C6CA33900AFE3AC /* CardsViewModel.swift in Sources */,
 				7ED860622C6C984200AFE3AC /* AppDelegate.swift in Sources */,
+				7ED8607E2C6C9A0200AFE3AC /* Card.swift in Sources */,
+				7ED860802C6CA0E500AFE3AC /* Networking.swift in Sources */,
+				7ED8607C2C6C995A00AFE3AC /* CardResponse.swift in Sources */,
 				7ED860642C6C984200AFE3AC /* SceneDelegate.swift in Sources */,
+				7ECDB8BD2C75E2000086FDBC /* CardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7ED860672C6C984200AFE3AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7ED860682C6C984200AFE3AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7ED8606C2C6C984300AFE3AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +361,6 @@
 				INFOPLIST_FILE = CardApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +388,6 @@
 				INFOPLIST_FILE = CardApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +425,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7ED860812C6CA10200AFE3AC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		7ED860862C6CAF2800AFE3AC /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7ED860822C6CA10200AFE3AC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ED860812C6CA10200AFE3AC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7ED860872C6CAF2800AFE3AC /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ED860862C6CAF2800AFE3AC /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7ED860562C6C984200AFE3AC /* Project object */;
 }

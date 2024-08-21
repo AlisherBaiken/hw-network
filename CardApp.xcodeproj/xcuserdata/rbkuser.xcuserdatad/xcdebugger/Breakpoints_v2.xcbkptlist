@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2B8E7352-C8AF-4E2B-A3F7-0E34A12D05BC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A55FFC8D-279F-4735-807A-60C694D58FB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CardApp/network/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "fetchCards(completions:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A55FFC8D-279F-4735-807A-60C694D58FB3 - 372f10435c32e346"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CardApp.Networking.fetchCards(completions: (Swift.Result&lt;Swift.Array&lt;CardApp.Card&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CardApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rbkuser/Documents/iosStudy/CardApp/CardApp/network/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17">
+               </Location>
+               <Location
+                  uuid = "A55FFC8D-279F-4735-807A-60C694D58FB3 - c5d25d3b3aa1aaaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;CardApp.CardResponse, Alamofire.AFError&gt;) -&gt; () in CardApp.Networking.fetchCards(completions: (Swift.Result&lt;Swift.Array&lt;CardApp.Card&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CardApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rbkuser/Documents/iosStudy/CardApp/CardApp/network/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
